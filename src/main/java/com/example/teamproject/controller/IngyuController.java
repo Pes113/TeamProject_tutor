@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 
 @Controller
-public class ItcenStudContorller {
-
-    @GetMapping("/itcenstud")
-    public @ResponseBody String itcenstud() {
-        return "Hello, itcenstud!!";
+public class IngyuController {
+    
+    @GetMapping("/ingyu")
+    public @ResponseBody String ingyu() {
+        return "Hello, InGyu!";
     }
     
 }
