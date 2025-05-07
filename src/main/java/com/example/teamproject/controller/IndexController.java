@@ -11,6 +11,6 @@ public class IndexController {
     @GetMapping("/")
     public @ResponseBody String index() {
         return "Hello, World!!";
-    }    
+    }
 
 }
